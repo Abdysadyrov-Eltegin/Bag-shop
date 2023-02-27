@@ -1,0 +1,396 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul, li {
+    list-style: none;
+}
+
+.container {
+    width: 97%;
+    margin: 0 auto;
+}
+
+/*header*/
+
+.header {
+    padding: 0 10px;
+}
+
+.one {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 8px;
+}
+
+.one a {
+    color: gray;
+    margin: 15px;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.one a:hover {
+    color: black;
+    font-weight: 600;
+}
+
+.two, .two-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.logo span {
+    font-size: 8px;
+    text-transform: uppercase;
+}
+
+.phone {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.phone span {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.two h1 {
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.user span {
+    padding-top: 4px;
+    font-weight: bold;
+}
+
+.like {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.like span {
+    font-weight: bold;
+    padding-top: 4px;
+}
+
+.shop {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.shop span {
+    font-weight: bold;
+    padding-top: 7px;
+}
+
+.three {
+    margin-top: 18px;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-btn {
+    padding: 8px 28px;
+    background: black;
+    color: white;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    border-radius: 30px;
+}
+
+.header-btn img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+}
+
+.input input {
+    width: 700px;
+    height: 40px;
+    padding: 5px 50px;
+    border-radius: 30px;
+    border: 2px solid black;
+}
+
+.input-btn {
+    padding: 12px 38px;
+}
+
+.fou {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.fou a {
+    color: gray;
+    margin: 15px;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.fou a:hover {
+    color: black;
+    font-weight: 600;
+}
+
+/*header*/
+
+/*footer*/
+
+.block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 20px;
+}
+
+.card {
+    width: 179px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-img {
+    position: relative;
+}
+
+.card-img img {
+
+}
+
+.recommend h1 {
+    text-align: center;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 28px;
+    margin: 70px 0;
+}
+
+.img-icon {
+    width: 24px;
+    height: 24px;
+    border-radius: 50px;
+    position: absolute;
+    top: 10px;
+    left: 145px;
+    z-index: 10;
+    background: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    cursor: pointer;
+}
+
+.icon-black {
+    display: none;
+}
+
+.card span {
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 6px;
+}
+
+.color {
+    display: flex;
+    align-items: center;
+    padding: 5px 0;
+    justify-content: flex-start;
+}
+
+.b {
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    box-shadow: 0 8px 16px 0 rgba(0.2, 0.2, 0.2, 0.2);
+    background: rgba(164, 222, 255, 1);
+}
+
+.w {
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    background: white;
+    box-shadow: 0 8px 16px 0 rgba(0.2, 0.2, 0.2, 0.2);
+    margin-left: 8px;
+}
+
+.d {
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    background: black;
+    box-shadow: 0 8px 16px 0 rgba(0.2, 0.2, 0.2, 0.2);
+    margin-left: 8px;
+}
+
+.p {
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    box-shadow: 0 8px 16px 0 rgba(0.2, 0.2, 0.2, 0.2);
+    background: rgba(255, 174, 174, 1);
+    margin-left: 8px;
+}
+
+.prise {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.prise p {
+    font-size: 10px;
+    padding-top: 5px;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    color: rgba(255, 101, 101, 1);
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 8px;
+}
+
+.rating-btn {
+    padding: 6px 22px;
+    background: black;
+    color: white;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    border-radius: 30px;
+}
+
+.rating-btn:hover {
+    background: white;
+    color: black;
+    border: 1px solid black;
+}
+
+.viewed h1 {
+    text-align: center;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 28px;
+    margin: 70px 0;
+}
+
+.viewed-block {
+    margin-bottom: 70px;
+}
+
+.footer-content {
+    background: black;
+    color: white;
+    padding: 20px 10px;
+}
+
+.content-f {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-right {
+    display: flex;
+    align-items: center;
+}
+
+.footer-right p {
+    font-size: 12px;
+}
+
+.footer-right img {
+    width: 25px;
+    height: 25px;
+    color: white;
+    margin: 10px;
+}
+
+.footer-left {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.footer-left img {
+    margin-right: 140px;
+}
+
+.footer-left ul li {
+    font-size: 12px;
+}
+
+.footer-left ul {
+    margin-right: 50px;
+}
+
+/*footer*/
